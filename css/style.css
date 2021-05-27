@@ -38,3 +38,8 @@ header{
     height: 700px;
     margin: 15px 0 5px; 
 }
+
+.bottom-section :first-child{
+    background-color:#ABCFE7;
+    height: 70px;
+}
