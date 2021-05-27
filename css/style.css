@@ -15,6 +15,9 @@ body{
 } 
 /* qui sono consapevole che se ci fosse un bg non andava bene */
 
+.round{
+    border-radius: 10px 50px;
+}
 
 /* HEADER */
 header{
@@ -70,11 +73,14 @@ header{
 main{
     width: calc(50% - 50px);
     margin: 0 25px;
+    border-radius: 5px;
 }
 
 .side{
     width: 25%;
 }
+
+
 
 /* FOOTER */
 
