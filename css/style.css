@@ -23,23 +23,56 @@ header{
     margin: 30px 0;
 }
 
+.float{
+    float: left;
+
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 /* MAIN CONTAINER */
 
 .main-container{
-    height: 500px;
+    height: 800px;
     background-color: #E1D67A;
     margin: 30px 0;
 }
 
 /* BOTTOM SECTION */
 
-.bottom-section{
+.bottom-section {
     background-color: #0186FE;
-    height: 700px;
-    margin: 15px 0 5px; 
+    height: 800px; 
+    margin: 15px 0;  
 }
 
-.bottom-section :first-child{
+.mini-header {
     background-color:#ABCFE7;
     height: 70px;
+    margin-bottom:30px; 
 }
+
+/* float section con 3 column */
+.row { 
+    margin: 30px 0;
+    height:auto; 
+}
+
+.column{
+    background-color: #ABCFE7 ;
+    height: 680px;
+}
+
+main{
+    width: calc(50% - 50px);
+    margin: 0 25px;
+}
+
+.side{
+    width: 25%;
+}
+
+
