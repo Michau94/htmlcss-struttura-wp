@@ -75,4 +75,12 @@ main{
     width: 25%;
 }
 
+/* FOOTER */
+
+footer{
+    height: 100px;
+    background-color: purple;
+    margin-bottom: 30px; 
+}
+
 
